@@ -24,9 +24,9 @@ dp.include_router(router)
 
 def signal_handler(signum, frame):
     logging.info("Received SIGTERM, shutting down...")
-    # asyncio.create_task(dp.storage.close())
-    # asyncio.create_task(dp.storage.wait_closed())
-    # sys.exit(0)
+    asyncio.create_task(dp.storage.close())
+    asyncio.create_task(dp.storage.wait_closed())
+    sys.exit(0)
 
 
 signal.signal(signal.SIGTERM, signal_handler)
