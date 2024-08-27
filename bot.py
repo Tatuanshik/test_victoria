@@ -4,10 +4,10 @@ import logging
 import signal
 import sys
 import os
-from config import BOT_TOKEN
+#from config import BOT_TOKEN
 
 # Load the bot token from environment variables
-#BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
