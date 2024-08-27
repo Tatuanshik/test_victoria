@@ -46,6 +46,11 @@ async def main():
         await dp.start_polling(bot, handle_signals=True)
     except (KeyboardInterrupt, SystemExit):
         logging.info("Shutting down...")
+    if handle_signals:
+        loop = asyncio.get_running_loop()
+        with suppress(NotImplementedError):
+            loop.add_signal_handler(signal.SIGTERM, self._signal_stop_polling, signal.SIGTERM)
+            loop.add_signal_handler(signal.SIGINT, self._signal_stop_polling, signal.SIGINT)
 
 
 if __name__ == '__main__':
@@ -53,8 +58,4 @@ if __name__ == '__main__':
     asyncio.run(main())
 
 
-if handle_signals:
-    loop = asyncio.get_running_loop()
-    with suppress(NotImplementedError): 
-        loop.add_signal_handler(signal.SIGTERM, self._signal_stop_polling, signal.SIGTERM)
-        loop.add_signal_handler(signal.SIGINT, self._signal_stop_polling, signal.SIGINT)
+
