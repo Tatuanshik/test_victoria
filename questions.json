@@ -274,9 +274,10 @@
         "options": [
             " a. walking",
             " b. have been walking",
-            " c. was walking"
+            " c. was walking",
+            " d. was walked"
         ],
-        "correct": " d. was walked"
+        "correct": " c. was walking"
     },
     {
         "question": "29. ____ stayed in a hospital?",
