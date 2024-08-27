@@ -49,7 +49,7 @@ async def main():
     logging.info("Starting bot...")
     await bot.delete_webhook(drop_pending_updates=True)
     try:
-        await dp.start_polling(bot, handle_signals=False)
+        await dp.start_polling(bot, handle_signals=True)
     except (KeyboardInterrupt, SystemExit):
         logging.info("Shutting down...")
 
