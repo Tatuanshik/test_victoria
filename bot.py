@@ -21,7 +21,7 @@ bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 dp.include_router(router)
 
-# Signal handler function for graceful shutdown
+
 def signal_handler(signum, frame):
     logging.info("Received SIGTERM, shutting down...")
     asyncio.create_task(dp.storage.close())
@@ -43,7 +43,7 @@ async def main():
     logging.info("Starting bot...")
     await bot.delete_webhook(drop_pending_updates=True)
     try:
-        await dp.start_polling(bot)
+        await dp.start_polling(bot, on_shutdown=on_stop)
     except (KeyboardInterrupt, SystemExit):
         logging.info("Shutting down...")
 
