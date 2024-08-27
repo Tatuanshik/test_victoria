@@ -1,37 +1,46 @@
-from aiogram import Dispatcher, Bot
+from aiogram import Bot, Dispatcher
 import asyncio
 import logging
 import signal
 import sys
-import time
-#from config import BOT_TOKEN
-from handler import router
 import os
-import json
+from config import BOT_TOKEN
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+# Load the bot token from environment variables
+#BOT_TOKEN = os.getenv('BOT_TOKEN')
 
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+
+# Initialize bot and dispatcher
+bot = Bot(token=BOT_TOKEN)
+dp = Dispatcher()
+
+# Import router after bot and dispatcher initialization
+from handler import router
+dp.include_router(router)
+
+# Signal handler function for graceful shutdown
 def signal_handler(signum, frame):
-    print("Получилм SIGTERM, выключение...")
+    logging.info("Received SIGTERM, shutting down...")
+    # Stop polling and close the bot
+    asyncio.create_task(dp.storage.close())
+    asyncio.create_task(dp.storage.wait_closed())
     sys.exit(0)
 
-    signal.signal(signal.SIGTERM, signal_handler)
+# Register the signal handler
+signal.signal(signal.SIGTERM, signal_handler)
 
 
-while True:
-    time.sleep(1)
-    logging.basicConfig(level=logging.INFO)
-    bot = Bot(token=BOT_TOKEN)
-    dp = Dispatcher()
-    dp.include_router(router)
-
-
-    async def main():
-        logging.info("Бот запускается...")
-        await bot.delete_webhook(drop_pending_updates=True)
+async def main():
+    logging.info("Starting bot...")
+    await bot.delete_webhook(drop_pending_updates=True)
+    try:
+        # Start polling
         await dp.start_polling(bot)
+    except (KeyboardInterrupt, SystemExit):
+        # Handle shutdown on interrupt
+        logging.info("Shutting down...")
 
-
-    if __name__ == '__main__':
-        asyncio.run(main())
-
+if __name__ == '__main__':
+    asyncio.run(main())
