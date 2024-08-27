@@ -31,12 +31,6 @@ dp.include_router(router)
 
 # signal.signal(signal.SIGTERM, signal_handler)
 
-if handle_signals:
-    loop = asyncio.get_running_loop()
-    with suppress(NotImplementedError): 
-        loop.add_signal_handler(signal.SIGTERM, self._signal_stop_polling, signal.SIGTERM)
-        loop.add_signal_handler(signal.SIGINT, self._signal_stop_polling, signal.SIGINT)
-
 
 def start_http_server():
     port = int(os.getenv('PORT', 10000))
@@ -53,6 +47,14 @@ async def main():
     except (KeyboardInterrupt, SystemExit):
         logging.info("Shutting down...")
 
+
 if __name__ == '__main__':
     Thread(target=start_http_server).start()
     asyncio.run(main())
+
+
+if handle_signals:
+    loop = asyncio.get_running_loop()
+    with suppress(NotImplementedError): 
+        loop.add_signal_handler(signal.SIGTERM, self._signal_stop_polling, signal.SIGTERM)
+        loop.add_signal_handler(signal.SIGINT, self._signal_stop_polling, signal.SIGINT)
