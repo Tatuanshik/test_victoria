@@ -64,7 +64,8 @@
         "options": [
             " a. No",
             " b. Not",
-            " c. Doesn’t"
+            " c. Doesn’t",
+            " d. Don’t"
         ],
         "correct": " d. Don’t"
     },
