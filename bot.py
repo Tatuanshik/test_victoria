@@ -6,12 +6,12 @@ import sys
 import os
 import http.server
 import socketserver
-from config import BOT_TOKEN
+#from config import BOT_TOKEN
 from threading import Thread
 from handler import router
 
 # Load the bot token from environment variables
-#BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
