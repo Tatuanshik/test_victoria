@@ -38,20 +38,21 @@ def start_http_server():
     with socketserver.TCPServer(("0.0.0.0", port), handler) as httpd:
         logging.info(f"Serving HTTP on port {port}")
         httpd.serve_forever()
+
         
 async def main():
     logging.info("Starting bot...")
     await bot.delete_webhook(drop_pending_updates=True)
     try:
-        await dp.start_polling(bot, handle_signals=True)
+        await dp.start_polling(bot, handle_signals=False)
     except (KeyboardInterrupt, SystemExit):
         logging.info("Shutting down...")
-    if handle_signals:
-        loop = asyncio.get_running_loop()
-        with suppress(NotImplementedError):
-            loop.add_signal_handler(signal.SIGTERM, self._signal_stop_polling, signal.SIGTERM)
-            loop.add_signal_handler(signal.SIGINT, self._signal_stop_polling, signal.SIGINT)
-
+    # if handle_signals:
+    #     loop = asyncio.get_running_loop()
+    #     with suppress(NotImplementedError):
+    #         loop.add_signal_handler(signal.SIGTERM, self._signal_stop_polling, signal.SIGTERM)
+    #         loop.add_signal_handler(signal.SIGINT, self._signal_stop_polling, signal.SIGINT)
+    #
 
 if __name__ == '__main__':
     Thread(target=start_http_server).start()
