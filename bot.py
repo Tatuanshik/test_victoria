@@ -22,14 +22,20 @@ dp = Dispatcher()
 dp.include_router(router)
 
 
-def signal_handler(signum, frame):
-    logging.info("Received SIGTERM, shutting down...")
-    asyncio.create_task(dp.storage.close())
-    asyncio.create_task(dp.storage.wait_closed())
-    sys.exit(0)
+# def signal_handler(signum, frame):
+#     logging.info("Received SIGTERM, shutting down...")
+#     asyncio.create_task(dp.storage.close())
+#     asyncio.create_task(dp.storage.wait_closed())
+#     sys.exit(0)
 
 
-signal.signal(signal.SIGTERM, signal_handler)
+# signal.signal(signal.SIGTERM, signal_handler)
+
+if handle_signals:
+    loop = asyncio.get_running_loop()
+    with suppress(NotImplementedError): 
+        loop.add_signal_handler(signal.SIGTERM, self._signal_stop_polling, signal.SIGTERM)
+        loop.add_signal_handler(signal.SIGINT, self._signal_stop_polling, signal.SIGINT)
 
 
 def start_http_server():
