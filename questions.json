@@ -1,0 +1,1000 @@
+[
+    {
+        "question": "1. José is ____ Argentina",
+        "options": [
+            " a. from",
+            " b. to",
+            " c. at",
+            " d. with"
+        ],
+        "correct": " a. from"
+    },
+    {
+        "question": "2. ____ is your favourite music?",
+        "options": [
+            " a. Who",
+            " b. How",
+            " c. What",
+            " d. These"
+        ],
+        "correct": " c. What"
+    },
+    {
+        "question": "3. ____ Susan like spaghetti?",
+        "options": [
+            " a. Is",
+            " b. What",
+            " c. Does",
+            " d. Do"
+        ],
+        "correct": " c. Does"
+    },
+    {
+        "question": "4. How old ____ your brother?",
+        "options": [
+            " a. does",
+            " b. is",
+            " c. do",
+            " d. are"
+        ],
+        "correct": " b. is"
+    },
+    {
+        "question": "5. His ____ name is Sam.",
+        "options": [
+            " a. dad’s",
+            " b. dad",
+            " c. dads",
+            " d. dad is"
+        ],
+        "correct": " a. dad’s"
+    },
+    {
+        "question": "6. Lucy doesn’t like ____.",
+        "options": [
+            " a. swim",
+            " b. swimming",
+            " c. swims",
+            " d. at swimming"
+        ],
+        "correct": " b. swimming"
+    },
+    {
+        "question": "7. ____ go to that restaurant. It’s very expensive.",
+        "options": [
+            " a. No",
+            " b. Not",
+            " c. Doesn’t"
+        ],
+        "correct": " d. Don’t"
+    },
+    {
+        "question": "8. Does Tony work in a bank? No he ____.",
+        "options": [
+            " a. isn’t",
+            " b. not",
+            " c. doesn’t",
+            " d. don’t"
+        ],
+        "correct": " c. doesn’t"
+    },
+    {
+        "question": "9. Sarah ____ two children.",
+        "options": [
+            " a. have",
+            " b. have got",
+            " c. is",
+            " d. has"
+        ],
+        "correct": " d. has"
+    },
+    {
+        "question": "10. Where ____ Mike live?",
+        "options": [
+            " a. do",
+            " b. is",
+            " c. does",
+            " d. has"
+        ],
+        "correct": " c. does"
+    },
+    {
+        "question": "11. Maggie can ____ Chinese.",
+        "options": [
+            " a. speak",
+            " b. to speak",
+            " c. speaking",
+            " d. in speaking"
+        ],
+        "correct": " a. speak"
+    },
+    {
+        "question": "12. ____ often do you go to the cinema?",
+        "options": [
+            " a. What",
+            " b. How",
+            " c. When",
+            " d. Who"
+        ],
+        "correct": " b. How"
+    },
+    {
+        "question": "13. Are ____ any plates on the table?",
+        "options": [
+            " a. those",
+            " b. these",
+            " c. there",
+            " d. here"
+        ],
+        "correct": " c. there"
+    },
+    {
+        "question": "14. What colour ____ her hair?",
+        "options": [
+            " a. is",
+            " b. are",
+            " c. has",
+            " d. have"
+        ],
+        "correct": " a. is"
+    },
+    {
+        "question": "15. There are ____ pictures in that gallery.",
+        "options": [
+            " a. any",
+            " b. many",
+            " c. much",
+            " d. a"
+        ],
+        "correct": " b. many"
+    },
+    {
+        "question": "16. There is a pub ____ the post office.",
+        "options": [
+            " a. front",
+            " b. in front",
+            " c. at front",
+            " d. in front of"
+        ],
+        "correct": " d. in front of"
+    },
+    {
+        "question": "17. We went to the theatre ____ last Saturday.",
+        "options": [
+            " a. —",
+            " b. in",
+            " c. on",
+            " d. at"
+        ],
+        "correct": " a. —"
+    },
+    {
+        "question": "18. The film starts ____ six.",
+        "options": [
+            " a. about",
+            " b. at",
+            " c. in",
+            " d. on"
+        ],
+        "correct": " b. at"
+    },
+    {
+        "question": "19. Is Paris ____ than London?",
+        "options": [
+            " a. big",
+            " b. the biggest",
+            " c. bigger",
+            " d. biggest"
+        ],
+        "correct": " c. bigger"
+    },
+    {
+        "question": "20. I ____ wash the dishes every day.",
+        "options": [
+            " a. have",
+            " b. have to",
+            " c. need",
+            " d. have got"
+        ],
+        "correct": " b. have to"
+    },
+    {
+        "question": "21. This is ____ restaurant in town.",
+        "options": [
+            " a. the most expensive",
+            " b. more expensive",
+            " c. rather expensive",
+            " d. expensive"
+        ],
+        "correct": " a. the most expensive"
+    },
+    {
+        "question": "22. We ____ Manchester next week.",
+        "options": [
+            " a. going to",
+            " b. are going to",
+            " c. going in",
+            " d. are going in"
+        ],
+        "correct": " b. are going to"
+    },
+    {
+        "question": "23. Whose is this book? It’s ____.",
+        "options": [
+            " a. me",
+            " b. my",
+            " c. mine",
+            " d. I"
+        ],
+        "correct": " c. mine"
+    },
+    {
+        "question": "24. Emma is worried ____ the exam.",
+        "options": [
+            " a. with",
+            " b. on",
+            " c. for",
+            " d. about"
+        ],
+        "correct": " d. about"
+    },
+    {
+        "question": "25. ____ did you finish reading?",
+        "options": [
+            " a. Whose",
+            " b. Who",
+            " c. Which",
+            " d. When"
+        ],
+        "correct": " d. When"
+    },
+    {
+        "question": "26. She ____ I was wrong.",
+        "options": [
+            " a. said",
+            " b. told",
+            " c. spoke",
+            " d. telling"
+        ],
+        "correct": " a. said"
+    },
+    {
+        "question": "27. Peter hasn’t finished ____.",
+        "options": [
+            " a. already",
+            " b. still",
+            " c. always",
+            " d. yet"
+        ],
+        "correct": " d. yet"
+    },
+    {
+        "question": "28. I saw an accident when I ____ down the street.",
+        "options": [
+            " a. walking",
+            " b. have been walking",
+            " c. was walking"
+        ],
+        "correct": " d. was walked"
+    },
+    {
+        "question": "29. ____ stayed in a hospital?",
+        "options": [
+            " a. Did you ever",
+            " b. Have you ever",
+            " c. Do you ever",
+            " d. Are you ever"
+        ],
+        "correct": " b. Have you ever"
+    },
+    {
+        "question": "30. What food ____ on Christmas Day in England?",
+        "options": [
+            " a. eats",
+            " b. is eating",
+            " c. ate",
+            " d. is eaten"
+        ],
+        "correct": " d. is eaten"
+    },
+    {
+        "question": "31. How ____ pocket money does Steve get a week?",
+        "options": [
+            " a. much",
+            " b. many",
+            " c. some",
+            " d. any"
+        ],
+        "correct": " a. much"
+    },
+    {
+        "question": "32. They ____ visited London in 1999.",
+        "options": [
+            " a. have",
+            " b. —",
+            " c. did",
+            " d. have been"
+        ],
+        "correct": " b. —"
+    },
+    {
+        "question": "33. We’ve celebrated Independence Day ____ 15 years.",
+        "options": [
+            " a. from",
+            " b. since",
+            " c. in",
+            " d. for"
+        ],
+        "correct": " d. for"
+    },
+    {
+        "question": "34. At the end of the course. I ____ speak English fluently.",
+        "options": [
+            " a. am going",
+            " b. will be able",
+            " c. will be",
+            " d. will"
+        ],
+        "correct": " d. will"
+    },
+    {
+        "question": "35. I’ve got some phone calls to ____.",
+        "options": [
+            " a. do",
+            " b. have",
+            " c. make",
+            " d. get"
+        ],
+        "correct": " c. make"
+    },
+    {
+        "question": "36. Liz is ____ in photography.",
+        "options": [
+            " a. interesting",
+            " b. interested",
+            " c. interest",
+            " d. interestingly"
+        ],
+        "correct": " b. interested"
+    },
+    {
+        "question": "37. In Brighton there is ____ pollution than in Manchester.",
+        "options": [
+            " a. much",
+            " b. less",
+            " c. fewer",
+            " d. not enough"
+        ],
+        "correct": " b. less"
+    },
+    {
+        "question": "38. We usually have lunch at 1 o’clock ____ some people have lunch later.",
+        "options": [
+            " a. so",
+            " b. because",
+            " c. however",
+            " d. then"
+        ],
+        "correct": " c. however"
+    },
+    {
+        "question": "39. Could you tell me ____?",
+        "options": [
+            " a. the station",
+            " b. where a station is",
+            " c. where the station is",
+            " d. where is a station'"
+        ],
+        "correct": " c. where the station is"
+    },
+    {
+        "question": "40. Will you go to that concert if it ____?",
+        "options": [
+            " a. will rain",
+            " b. rain",
+            " c. rains",
+            " d. rained"
+        ],
+        "correct": " c. rains"
+    },
+    {
+        "question": "41. Some people go to shops ____ the prices are really high.",
+        "options": [
+            " a. which",
+            " b. what",
+            " c. where",
+            " d. that"
+        ],
+        "correct": " c. where"
+    },
+    {
+        "question": "42. What would you do if you ____ one million dollars?",
+        "options": [
+            " a. win",
+            " b. won",
+            " c. have won",
+            " d. have been winning"
+        ],
+        "correct": " b. won"
+    },
+    {
+        "question": "43. The cinema is ____ the restaurant and the newsagent’s.",
+        "options": [
+            " a. oppose",
+            " b. nearly",
+            " c. between",
+            " d. close"
+        ],
+        "correct": " c. between"
+    },
+    {
+        "question": "44. You didn’t learn Russian at school ____?",
+        "options": [
+            " a. didn’t you",
+            " b. no",
+            " c. don’t you",
+            " d. did you"
+        ],
+        "correct": " d. did you"
+    },
+    {
+        "question": "45. We’ve never ____ to Australia.",
+        "options": [
+            " a. been",
+            " b. went",
+            " c. lived",
+            " d. visited"
+        ],
+        "correct": " a. been"
+    },
+    {
+        "question": "46. That coffee tastes ____.",
+        "options": [
+            " a. awfully",
+            " b. badly",
+            " c. awful",
+            " d. terribly"
+        ],
+        "correct": " c. awful"
+    },
+    {
+        "question": "47. When she was younger she ____ have more friends than anyone else.",
+        "options": [
+            " a. would",
+            " b. used to",
+            " c. was used to",
+            " d. used"
+        ],
+        "correct": " b. used"
+    },
+    {
+        "question": "48. Doing regular exercises will ____ you fit.",
+        "options": [
+            " a. keep",
+            " b. become",
+            " c. get",
+            " d. stay"
+        ],
+        "correct": " a. keep"
+    },
+    {
+        "question": "49. The police arrested the man who ____ a bank.",
+        "options": [
+            " a. robs",
+            " b. had robbed",
+            " c. has robbed",
+            " d. had been robbing"
+        ],
+        "correct": " b. had robbed"
+    },
+    {
+        "question": "50. People say I read ____.",
+        "options": [
+            " a. quick",
+            " b. slow",
+            " c. fast",
+            " d. pacey"
+        ],
+        "correct": " c. fast"
+    },
+    {
+        "question": "51. Before I went to school I ____ paint very well.",
+        "options": [
+            " a. can’t",
+            " b. can’t have",
+            " c. couldn’t",
+            " d. couldn’t have"
+        ],
+        "correct": " c. couldn’t"
+    },
+    {
+        "question": "52. I’m so tired. I ____ in the forest all morning.",
+        "options": [
+            " a. have been jogging",
+            " b. jogged",
+            " c. am jogging",
+            " d. had been jogging"
+        ],
+        "correct": " a. have been jogging"
+    },
+    {
+        "question": "53. It ____ me an hour to get to work today.",
+        "options": [
+            " a. got",
+            " b. took",
+            " c. made",
+            " d. had"
+        ],
+        "correct": " b. took"
+    },
+    {
+        "question": "54. Look at those people! I think we ____.",
+        "options": [
+            " a. are watching",
+            " b. are watched",
+            " c. watched",
+            " d. are being watched"
+        ],
+        "correct": " d. are being watched"
+    },
+    {
+        "question": "55. I think we will ____ the car serviced this week.",
+        "options": [
+            " a. do",
+            " b. have",
+            " c. got",
+            " d. must"
+        ],
+        "correct": " b. have"
+    },
+    {
+        "question": "56. They ____ forgotten about our wedding.",
+        "options": [
+            " a. can’t have",
+            " b. couldn’t",
+            " c. can’t",
+            " d. can’t have been"
+        ],
+        "correct": " a. can’t have"
+    },
+    {
+        "question": "57. My girlfriend is a fantastic dancer. I wish I ____ my dancing lessons.",
+        "options": [
+            " a. haven’t given up",
+            " b. hadn’t given up",
+            " c. didn’t give up",
+            " d. don’t give up"
+        ],
+        "correct": " b. hadn’t given up"
+    },
+    {
+        "question": "58. We get ____ well with our new teacher.",
+        "options": [
+            " a. off",
+            " b. up",
+            " c. down",
+            " d. on"
+        ],
+        "correct": " d. on"
+    },
+    {
+        "question": "59. Before we start we should introduce ____ to the audience.",
+        "options": [
+            " a. us",
+            " b. ourselves",
+            " c. myself",
+            " d. yourselves"
+        ],
+        "correct": " b. ourselves"
+    },
+    {
+        "question": "60. The beach ____ situated close to the town is used by surfers.",
+        "options": [
+            " a. that is",
+            " b. what is",
+            " c. which is",
+            " d. is"
+        ],
+        "correct": " c. which"
+    },
+    {
+        "question": "61. Her family was very ____.",
+        "options": [
+            " a. well-done",
+            " b. well-born",
+            " c. well-earned",
+            " d. well-off"
+        ],
+        "correct": " d. well-off"
+    },
+    {
+        "question": "62. I saw Jane ____ the supermarket.",
+        "options": [
+            " a. enter",
+            " b. entered",
+            " c. being entered",
+            " d. be entering"
+        ],
+        "correct": " a. enter"
+    },
+    {
+        "question": "63. Jim said he ____ the project two days before.",
+        "options": [
+            " a. will have finished",
+            " b. will finish",
+            " c. finished",
+            " d. had finished"
+        ],
+        "correct": " d. had finished"
+    },
+    {
+        "question": "64. Carl has been ____ about his past.",
+        "options": [
+            " a. dishonest",
+            " b. disloyal",
+            " c. disclosed",
+            " d. discontented"
+        ],
+        "correct": " a. dishonest"
+    },
+    {
+        "question": "65. He looks terrified! He ____ a ghost or something.",
+        "options": [
+            " a. had to see",
+            " b. had seen",
+            " c. must have seen",
+            " d. must see"
+        ],
+        "correct": " c. must have seen"
+    },
+    {
+        "question": "66. ____ does he look like?",
+        "options": [
+            " a. How",
+            " b. Who",
+            " c. Whom",
+            " d. Whose"
+        ],
+        "correct": " b. Who"
+    },
+    {
+        "question": "67. Could you ____ me a favour please?",
+        "options": [
+            " a. do",
+            " b. make",
+            " c. have",
+            " d. give"
+        ],
+        "correct": " a. do"
+    },
+    {
+        "question": "68. The police officer ____ me to move along.",
+        "options": [
+            " a. spoke",
+            " b. said",
+            " c. told",
+            " d. announced"
+        ],
+        "correct": " c. told"
+    },
+    {
+        "question": "69. She did ____ in the test.",
+        "options": [
+            " a. bad",
+            " b. badly",
+            " c. wrong",
+            " d. wrongly"
+        ],
+        "correct": " b. badly"
+    },
+    {
+        "question": "70. I’m going into the centre. Catch ____ me there.",
+        "options": [
+            " a. off",
+            " b. up",
+            " c. up with",
+            " d. on"
+        ],
+        "correct": " c. up with"
+    },
+    {
+        "question": "71. The club was so small that they ____ to let any more people in.",
+        "options": [
+            " a. denied",
+            " b. gave up",
+            " c. refused",
+            " d. stopped"
+        ],
+        "correct": " c. refused"
+    },
+    {
+        "question": "72. This was the basis on ____ the movement was formed.",
+        "options": [
+            " a. that",
+            " b. what",
+            " c. which",
+            " d. whom'"
+        ],
+        "correct": " 'c. which'"
+    },
+    {
+        "question": "73. You should take an umbrella ____ it rains.",
+        "options": [
+            " a. in case",
+            " b. otherwise",
+            " c. instead",
+            " d. so that'"
+        ],
+        "correct": " 'a. in case"
+    },
+    {
+        "question": "74. This painting is believed ____ painted by Leonardo Da Vinci.",
+        "options": [
+            " a. that it is",
+            " b. — ",
+            " c. being",
+            " d. to have been"
+        ],
+        "correct": " d. to have been"
+    },
+    {
+        "question": "75. Tom would rather you ____ it.",
+        "options": [
+            " a. do",
+            " b. did",
+            " c. have done",
+            " d. doing"
+        ],
+        "correct": " b. did"
+    },
+    {
+        "question": "76. British policemen don’t carry guns ____ duty.",
+        "options": [
+            " a. in",
+            " b. at",
+            " c. by",
+            " d. on"
+        ],
+        "correct": " d. on"
+    },
+    {
+        "question": "77. If you ____ me. I would never have known.",
+        "options": [
+            " a. had told",
+            " b. hadn’t told",
+            " c. told",
+            " d. didn’t tell"
+        ],
+        "correct": " b. hadn’t told"
+    },
+    {
+        "question": "78. I suggested that Robbie ____ again.",
+        "options": [
+            " a. tries",
+            " b. try",
+            " c. tried",
+            " d. had tried"
+        ],
+        "correct": " b. try"
+    },
+    {
+        "question": "79. Jack decided to ____ for the competition because he knew he was going to win.",
+        "options": [
+            " a. take up",
+            " b. go in",
+            " c. set off",
+            " d. get by"
+        ],
+        "correct": " b. go in"
+    },
+    {
+        "question": "80. What’s ____ the cinema?",
+        "options": [
+            " a. on",
+            " b. at",
+            " c. on at",
+            " d. in"
+        ],
+        "correct": " c. on at"
+    },
+    {
+        "question": "81. I picked up the wrong suitcase ____ mistake.",
+        "options": [
+            " a. by",
+            " b. through",
+            " c. as a",
+            " d. because of a"
+        ],
+        "correct": " a. by"
+    },
+    {
+        "question": "82. We walked quietly ____ fear of being discovered.",
+        "options": [
+            " a. on",
+            " b. for",
+            " c. from",
+            " d. in'"
+        ],
+        "correct": " b. for"
+    },
+    {
+        "question": "83. One ____ three children doesn’t read books at all.",
+        "options": [
+            " a. from",
+            " b. out",
+            " c. with",
+            " d. in"
+        ],
+        "correct": " d. in"
+    },
+    {
+        "question": "84. She was given the award in ____ of her academic achievements.",
+        "options": [
+            " a. charge",
+            " b. recognition",
+            " c. spite",
+            " d. light"
+        ],
+        "correct": " b. recognition"
+    },
+    {
+        "question": "85. The miners are out ____ strike again.",
+        "options": [
+            " a. on",
+            " b. at",
+            " c. in",
+            " d. to"
+        ],
+        "correct": " a. on"
+    },
+    {
+        "question": "86. Water was ____ slowly from the pipe.",
+        "options": [
+            " a. filtering",
+            " b. spilling",
+            " c. gushing",
+            " d. leaking'"
+        ],
+        "correct": " d. leaking"
+    },
+    {
+        "question": "87. I’d prefer beer ____ wine.",
+        "options": [
+            " a. to",
+            " b. than",
+            " c. from",
+            " d. not"
+        ],
+        "correct": " a. to"
+    },
+    {
+        "question": "88. I was ____ work late hours.",
+        "options": [
+            " a. made",
+            " b. made to",
+            " c. got",
+            " d. got to"
+        ],
+        "correct": " b. made to"
+    },
+    {
+        "question": "89. The new employee was ____ a failure.",
+        "options": [
+            " a. considered",
+            " b. decided",
+            " c. established",
+            " d. believed"
+        ],
+        "correct": " a. considered"
+    },
+    {
+        "question": "90. Thanks for your help. I wouldn’t have finished it ____.",
+        "options": [
+            " a. therefore",
+            " b. nevertheless",
+            " c. hence",
+            " d. otherwise"
+        ],
+        "correct": " d. otherwise"
+    },
+    {
+        "question": "91. ____ your help we would have been in trouble.",
+        "options": [
+            " a. Due to",
+            " b. But for",
+            " c. Thanks to",
+            " d. Along with'"
+        ],
+        "correct": " 'b. But for'"
+    },
+    {
+        "question": "92. ____ we went to Italy instead.",
+        "options": [
+            " a. Suppose",
+            " b. Think",
+            " c. Suggest",
+            " d. Relate"
+        ],
+        "correct": " a. Suppose"
+    },
+    {
+        "question": "93. You ____ better finish it by tomorrow.",
+        "options": [
+            " a. should",
+            " b. would",
+            " c. could",
+            " d. had"
+        ],
+        "correct": " d. had"
+    },
+    {
+        "question": "94. ____ had a moment passed before we heard the explosion.",
+        "options": [
+            " a. Only",
+            " b. No sooner",
+            " c. Hardly",
+            " d. Quickly"
+        ],
+        "correct": " c. Hardly"
+    },
+    {
+        "question": "95. They can’t even play ____ write their own songs.",
+        "options": [
+            " a. less likely",
+            " b. not to mention",
+            " c. let alone",
+            " d. needless to say"
+        ],
+        "correct": " c. let alone"
+    },
+    {
+        "question": "96. I don’t think Harry has spent more than a month in Spain. ____ he has acquired some basics of the language.",
+        "options": [
+            " a. Although",
+            " b. Much as",
+            " c. Even though",
+            " d. Even so"
+        ],
+        "correct": " d. Even so"
+    },
+    {
+        "question": "97. I’ll meet you ____ arrival.",
+        "options": [
+            " a. on",
+            " b. at",
+            " c. in",
+            " d. through"
+        ],
+        "correct": " a. on"
+    },
+    {
+        "question": "98. After the incident with the press the actor ____ disrepute.",
+        "options": [
+            " a. fell through",
+            " b. fell into",
+            " c. dipped in",
+            " d. dipped into"
+        ],
+        "correct": " b. fell into"
+    },
+    {
+        "question": "99. Although there is a dress code it isn’t ____ by many students these days.",
+        "options": [
+            " a. remarked",
+            " b. conducted",
+            " c. observed",
+            " d. attended"
+        ],
+        "correct": " c. observed"
+    },
+    {
+        "question": "100. Some of the delegates made an extremely useful ____ to the discussion.",
+        "options": [
+            " a. contribution",
+            " b. suggestion",
+            " c. insertion",
+            " d. opinion"
+        ],
+        "correct": " a. contribution"
+    }
+]
